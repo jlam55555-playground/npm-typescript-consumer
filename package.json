@@ -1,0 +1,32 @@
+{
+  "name": "npm-typescript-consumer",
+  "version": "1.0.0",
+  "description": "Example TypeScript application consuming @jlam55555-playground/npm-typescript",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "clean": "rm -rf ./js/*",
+    "start": "node ./js/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlam55555-playground/npm-typescript-consumer.git"
+  },
+  "keywords": [
+    "npm",
+    "typescript",
+    "consumer"
+  ],
+  "author": "Jonathan Lam <jlam55555@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jlam55555-playground/npm-typescript-consumer/issues"
+  },
+  "homepage": "https://github.com/jlam55555-playground/npm-typescript-consumer#readme",
+  "devDependencies": {
+    "typescript": "^3.9.5"
+  },
+  "dependencies": {
+    "@jlam55555-playground/npm-typescript": "^0.2.1"
+  }
+}
